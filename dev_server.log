@@ -1,0 +1,62 @@
+
+> foxeng-platform@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1517ms
+ ○ Compiling / ...
+ ⨯ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css
+Error: Cannot find module 'autoprefixer'
+Require stack:
+- /home/user/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /home/user/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /home/user/node_modules/next/dist/build/webpack/config/index.js
+- /home/user/node_modules/next/dist/build/webpack-config.js
+- /home/user/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/user/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/user/node_modules/next/dist/server/lib/router-server.js
+- /home/user/node_modules/next/dist/server/lib/start-server.js
+    at Array.map (<anonymous>)
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+ ⨯ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css
+Error: Cannot find module 'autoprefixer'
+Require stack:
+- /home/user/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /home/user/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /home/user/node_modules/next/dist/build/webpack/config/index.js
+- /home/user/node_modules/next/dist/build/webpack-config.js
+- /home/user/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/user/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/user/node_modules/next/dist/server/lib/router-server.js
+- /home/user/node_modules/next/dist/server/lib/start-server.js
+    at Array.map (<anonymous>)
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+ GET / 500 in 8768ms
+ ⨯ ./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css
+Error: Cannot find module 'autoprefixer'
+Require stack:
+- /home/user/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /home/user/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /home/user/node_modules/next/dist/build/webpack/config/index.js
+- /home/user/node_modules/next/dist/build/webpack-config.js
+- /home/user/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/user/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/user/node_modules/next/dist/server/lib/router-server.js
+- /home/user/node_modules/next/dist/server/lib/start-server.js
+    at Array.map (<anonymous>)
+Import trace for requested module:
+./app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css
+./app/globals.css
+[?25h
